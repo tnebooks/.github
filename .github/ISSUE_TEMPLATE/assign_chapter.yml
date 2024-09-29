@@ -7,7 +7,7 @@ body:
   - type: input
     id: chapter_name
     attributes:
-      label: " "
+      label: "Description"
       description: "Enter the chapter name and link."
       value: "We need to create markdown for [chapter_name](chapter_link)"
 
