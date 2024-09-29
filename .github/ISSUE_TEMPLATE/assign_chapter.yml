@@ -9,6 +9,7 @@ body:
       label: "Lesson Title"
       description: "Enter the title of the lesson (this will be the issue title)."
       placeholder: "e.g., Probability Distributions"
+      value: "Probability Distributions"  # Default value
 
   - type: input
     id: chapter_name
@@ -16,6 +17,7 @@ body:
       label: "Give the lesson name"
       description: "Enter the name of the chapter."
       placeholder: "Lesson name"
+      value: "We need to create markdown for [chapter_name](chapter_link)"  # Default value
 
   - type: input
     id: tamil_pdf
