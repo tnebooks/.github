@@ -1,6 +1,6 @@
 name: Assign Chapter to Developer
 description: Assign a chapter to a developer for creating a markdown file for a specific lesson.
-title: "{{ title }}"  # Title of the lesson
+title: "{{ title }}" 
 labels: [documentation]
 body:
   - type: input
@@ -9,7 +9,6 @@ body:
       label: "Lesson Title"
       description: "Enter the title of the lesson (this will be the issue title)."
       placeholder: "e.g., Probability Distributions"
-      required: true
 
   - type: markdown
     attributes:
@@ -22,15 +21,13 @@ body:
       label: "Chapter Name"
       description: "Enter the name of the chapter (this will be used in the static message)."
       placeholder: "e.g., Probability Distributions"
-      required: true
 
   - type: input
     id: chapter_url
     attributes:
       label: "Chapter URL"
       description: "Enter the URL for the lesson/chapter."
-      placeholder: "e.g., https://github.com/tnebooks/repo/tree/main/content.en/lesson_name"
-      required: true
+      placeholder: "e.g., https://github.com/tnebooks/12th-maths/tree/main/content.en/probability_distributions"
 
   - type: markdown
     attributes:
@@ -43,7 +40,6 @@ body:
       label: "Tamil PDF Link"
       description: "Provide the link to the Tamil version of the PDF."
       placeholder: "e.g., https://example.com/tamil-pdf"
-      required: true
 
   - type: input
     id: english_pdf
@@ -51,4 +47,3 @@ body:
       label: "English PDF Link"
       description: "Provide the link to the English version of the PDF."
       placeholder: "e.g., https://example.com/english-pdf"
-      required: true
