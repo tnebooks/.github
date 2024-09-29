@@ -1,6 +1,6 @@
 name: Assign Chapter to Developer
 description: Assign a chapter to a developer for creating a markdown file for a specific lesson.
-title: ""  # Title of the lesson
+title: "Title" 
 labels: [documentation]
 body:
   - type: input
