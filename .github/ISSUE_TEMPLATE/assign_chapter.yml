@@ -3,13 +3,6 @@ description: Assign a chapter for creating a markdown file for a specific lesson
 title: "Title"  # Title of the lesson
 labels: [documentation]
 body:
-  - type: input
-    id: title
-    attributes:
-      label: "Lesson Title"
-      description: "Enter the title of the lesson (this will be the issue title)."
-      placeholder: "e.g., Probability Distributions"
-      value: "Probability Distributions"  # Default value
 
   - type: input
     id: chapter_name
@@ -19,23 +12,8 @@ body:
       placeholder: "Lesson name"
       value: "We need to create markdown for [chapter_name](chapter_link)"  # Default value
 
-  - type: input
-    id: tamil_pdf
-    attributes:
-      label: "Tamil PDF Link"
-      description: "Provide the link to the Tamil version of the PDF."
-      placeholder: "e.g., https://example.com/tamil-pdf"
-
-  - type: input
-    id: english_pdf
-    attributes:
-      label: "English PDF Link"
-      description: "Provide the link to the English version of the PDF."
-      placeholder: "e.g., https://example.com/english-pdf"
-
   - type: textarea
-    id: markdown_creation_note
+    id: pdf
     attributes:
-      label: "Markdown Creation Note"
-      description: "Please confirm: We need to create a markdown for **{{chapter_name}}**."
-      placeholder: "e.g., We need to create a markdown for Chapter 5: Probability Distributions."
+      label: "Tamil and English Lesson pdf"
+      placeholder: "upload the PDF or drag and drop"
