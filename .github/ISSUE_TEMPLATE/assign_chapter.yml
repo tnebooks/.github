@@ -1,6 +1,6 @@
 name: Assign Chapter to Developer
 description: Assign a chapter to a developer for creating a markdown file for a specific lesson.
-title: "Title" 
+title: "{{ title }}"  # Title of the lesson
 labels: [documentation]
 body:
   - type: input
@@ -19,7 +19,7 @@ body:
     id: chapter_name
     attributes:
       label: "Chapter Name"
-      description: "Enter the name of the chapter (this will be used in the hyperlink)."
+      description: "Enter the name of the chapter."
       placeholder: "e.g., Probability Distributions"
 
   - type: input
@@ -32,7 +32,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        We need to create a markdown file for [{{ chapter_name }}]({{ chapter_url }})
+        Please ensure you format the chapter name as a hyperlink:  
+        `We need to create a markdown file for [Chapter Name](Chapter URL)`
 
   - type: input
     id: tamil_pdf
