@@ -1,16 +1,14 @@
 name: Assign Chapter
 description: Assign a chapter for creating a markdown file for a specific lesson.
-title: "Title"  # Title of the lesson
+title: "Title"
 labels: [documentation]
 body:
 
   - type: input
     id: chapter_name
     attributes:
-      label: "Give the lesson name"
-      description: "Enter the name of the chapter."
-      placeholder: "Lesson name"
-      value: "We need to create markdown for [chapter_name](chapter_link)"  # Default value
+      description: "Enter the chapter name and link."
+      value: "We need to create markdown for [chapter_name](chapter_link)"
 
   - type: textarea
     id: pdf
