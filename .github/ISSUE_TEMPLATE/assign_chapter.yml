@@ -32,8 +32,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please ensure you format the chapter name as a hyperlink:  
-        `We need to create a markdown file for [Chapter Name](Chapter URL)`
+        **Instructions**: 
+        After entering the chapter name and URL, please ensure to format it as follows in the issue body:
+        ```
+        We need to create a markdown file for [Chapter Name](Chapter URL)
+        ```
+        For example:  
+        We need to create a markdown file for [Probability Distributions](https://github.com/tnebooks/12th-maths/tree/main/content.en/probability_distributions)
 
   - type: input
     id: tamil_pdf
