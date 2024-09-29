@@ -7,21 +7,32 @@ assignees: ''
 ---
 
 
-### Describe the bug
-A clear and concise description of what the bug is.
+labels: 
+
+  - bug
+
+name: Bug report
+
+description: Please provide details about the bug you're experiencing.
 
 
-### Steps To Reproduce
 
-1. Go to '...'
-2. Login as an User
-3. See error
+fields:
 
-### Expected behavior
-A clear and concise description of what you expected to happen.
+- name: Title
 
-### Actual behavior
-A clear and concise description of what actually happens.
+  label: Issue Title
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+  type: text
+
+- name: Description
+
+  label: Detailed description
+
+  type: text
+
+- name: Steps to reproduce
+
+  label: How to reproduce the issue
+
+  type: text
