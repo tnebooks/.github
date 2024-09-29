@@ -1,7 +1,7 @@
 name: Assign Chapter
 description: Assign a chapter for creating a markdown file for a specific lesson.
 title: "Title"
-labels: [documentation]
+labels: [enhancement]
 body:
 
   - type: input
