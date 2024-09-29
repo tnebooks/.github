@@ -11,55 +11,56 @@ body:
   - type: input
     id: bug_description
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
-      placeholder: e.g., The app crashes when clicking the 'Save' button.
-      value: ''
+      label: "Describe the bug"
+      description: "A clear and concise description of what the bug is."
+      placeholder: "e.g., The app crashes when clicking the 'Save' button."
+      value: "Enter a description of the bug here."
 
   - type: textarea
     id: steps_to_reproduce
     attributes:
-      label: Steps to reproduce
-      description: List the steps to reproduce the bug.
+      label: "Steps to reproduce"
+      description: "List the steps to reproduce the bug."
       placeholder: |
         1. Go to '...'
         2. Click on '...'
         3. Scroll down to '...'
         4. See the error
-      value: ''
+      value: "Enter the steps here."
 
   - type: input
     id: expected_behavior
     attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-      placeholder: e.g., The app should save the document without crashing.
-      value: ''
+      label: "Expected behavior"
+      description: "A clear and concise description of what you expected to happen."
+      placeholder: "e.g., The app should save the document without crashing."
+      value: "Describe the expected behavior here."
 
   - type: input
     id: screenshots
     attributes:
-      label: Screenshots
-      description: If applicable, add a link to screenshots to help explain your problem.
-      placeholder: Add a link to screenshots or images.
-      value: ''
+      label: "Screenshots"
+      description: "If applicable, add a link to screenshots to help explain your problem."
+      placeholder: "Add a link to screenshots or images."
+      value: "Optional: Add link to screenshots."
 
   - type: dropdown
     id: browser
     attributes:
-      label: Browser
-      description: In which browser did the issue occur?
+      label: "Browser"
+      description: "In which browser did the issue occur?"
       options:
         - Chrome
         - Firefox
         - Safari
         - Edge
         - Other
-      value: Chrome
+      # No value field required here
 
   - type: textarea
     id: additional_context
     attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
-      value: ''
+      label: "Additional context"
+      description: "Add any other context about the problem here."
+      placeholder: "Any other relevant information."
+      value: "Optional: Provide any additional context here."
