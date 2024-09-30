@@ -1,0 +1,19 @@
+name: Create New Chapter
+description: Use this template to create an issue for adding a specific lesson.
+title: "Title"
+labels: [enhancement]
+body:
+
+  - type: input
+    id: description
+    attributes:
+      label: "Description"
+      description: "Enter the chapter name along with the corresponding URL link."
+      value: "Create the markdown file for [chapter_name](chapter_link) as per the reference content."
+
+  - type: textarea
+    id: pdf
+    attributes:
+      label: "Lesson PDF (Tamil and English)"
+      description: "Lesson PDF"
+      placeholder: "Drag and drop the file the lesson PDF (Tamil and English) here."
